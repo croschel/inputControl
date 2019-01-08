@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head> 
+        <meta charset="utf-8">
+        <title>sistema cb silva</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <div class="container">
+<!----><br>
+            
+                        <nav class="menu">
+                        <ul>
+                            
+                            <li><a href="cadastro.php">HOME</a></li>  
+                            <li><a href="#">PAV</a></li>
+                            <li><a href="#">GUARDA</a></li>
+                            <li><a href="consulta.php">CONSULTA</a></li>
+                            
+                        </ul>
+                        </nav>
+                        
+                        <br>
+                        <br>
+
+                <h1 id="banana">Controle Entrada e Saida PAV</h1>
+
+                <form class="formulario-enter" method="post" action="processo.php">                    
+
+                    <div class="dados">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" class="campo" maxlength="40" required autofocus><br>
+
+                        <label for="telefone">Telefone</label>
+                        <input type="text" name="telefone" class="telefone" maxlength="15" required autofocus><br>
+
+                        <label for="dpcumento">Documento</label>
+                        <input type="text" name="documento" class="campo" maxlength="40" required autofocus><br>
+
+                        <label for="modelo">Modelo</label>
+                        <input type="text" name="modelo" class="campo" maxlength="20" required autofocus><br>
+
+                        <label for="cor">Cor</label>
+                        <input type="text" name="cor" class="campo" maxlength="10" required autofocus><br>
+
+                        <label for="placa">Placa</label>
+                        <input type="text" name="placa" class="campo" maxlength="7" required autofocus><br>
+
+                        <label for="hora-entrada">Hora Entrada</label>
+                        <input type="text" name="hora-entrada" class="campo" maxlength="5" required autofocus><br>
+
+                        <label for="hora-saida">Hora Saída</label>
+                        <input type="text" name="hora-saida" class="campo" maxlength="5" required autofocus><br>
+
+                        <label for="destino">Destino</label>
+                        <input type="text" name="destino" class="destino" maxlength="200" required autofocus><br>
+                    </div>
+
+                    <div class="data">
+                        <h2 class="subtitle">Data</h2>
+                        <input type="date" class="dias" value=()s>
+                        AO DIA
+                        <input type="date" class="dias" value=()s>
+                    </div>
+                    
+                    <div class="botoes">
+                        <input type="submit" value="salvar" id="salvar">
+                        <input type="reset" value="limpar" id="resetar">
+                    </div>
+
+                </form>
+                
+        </div>
+
+    </body>
+</html>
